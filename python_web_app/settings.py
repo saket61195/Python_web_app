@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'python_web_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': "travellodb",
+        'USER': "django_dev",
+        'PASSWORD': "adware@123",
+        'HOST': "localhost",
+        'PORT': 5432
     }
 }
 
