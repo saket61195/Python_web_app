@@ -1,6 +1,6 @@
-*.css linguist-detectable=false
 *.js linguist-detectable=false
 *.js linguist-detectable=false
 *.py linguist-detectable=true
 *.py linguist-language=python
+*.css linguist-language=python
 
