@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/saket/.local/share/virtualenvs/Python_project-WdAZ4loL/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+}
